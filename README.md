@@ -1,5 +1,7 @@
 # Personal RXVT configuration
 
+:construction: In construction :construction:
+
 ## Note for myself
 
 I've just found rxvt and it's so freaking fast! Configuration is done by using xorg-server 
