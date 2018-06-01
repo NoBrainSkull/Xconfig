@@ -1,0 +1,83 @@
+#include ".config/Xresources.d/rxvt"
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+XTerm*background: #2b2b2b
+XTerm*foreground: #e7e7e7
+XTerm*pointerColor: #16A085
+XTerm*faceName: Fixed
+XTerm*faceSize: 11
+
+*background:                      #272827
+*foreground:                      #657b83
+*fading:                          15
+*fadeColor:                       black
+*cursorColor:                     #16A085
+*pointerColorBackground:          #2B2C2B
+*pointerColorForeground:          #16A085
+
+!! black dark/light
+*color0:                          #232423
+*color8:                          #282928
+
+!! red dark/light
+*color1:                          #BA2922
+*color9:                          #CC372C
+
+!! green dark/light
+*color2:                          #7E807E
+*color10:                         #8D8F8D
+
+!! yellow dark/light
+*color3:                          #4C4F4D
+*color11:                         #4E524F
+
+!! blue dark/light
+*color4:                          #16A085
+*color12:                         #13BF9D
+
+!! magenta dark/light
+*color5:                          #43746A
+*color13:                         #487D72
+
+!! cyan dark/light
+*color6:                          #00CCCC
+*color14:                         #00D1D1
+
+!! white dark/light
+*color7:                          #E0E0E0
+*color15:                         #E8E8E8
+
+Xcursor.theme: xcursor-breeze
+Xcursor.size:                     0
+
+XTerm*reverseVideo:               on
+XTerm*selectToClipboard:          true
+
+alsamixer*scrollBar:                  false
+
+
+!! Keyboard Mapping
+! Disable ISO14755 so as to get back Control + Shift shortcut.
+URxvt*iso14755:                   false
+URxvt*iso14755_52:                false
+URxvt*keysym.S-Up: \033[1;2A
+URxvt*keysym.S-Down: \033[1;2B
+URxvt*keysym.S-Right: \033[1;2C
+URxvt*keysym.S-Left: \033[1;2D
+URxvt*keysym.S-Home: \033[1;2H
+URxvt*keysym.S-End: \033[1;2F
+URxvt*keysym.C-Up: \033[1;5A
+URxvt*keysym.C-Down: \033[1;5B
+URxvt*keysym.C-Right: \033[1;5C
+URxvt*keysym.C-Left: \033[1;5D
+URxvt*keysym.C-S-Up: \033[1;6A
+URxvt*keysym.C-S-Down: \033[1;6B
+URxvt*keysym.C-S-Right: \033[1;6C
+URxvt*keysym.C-S-Left: \033[1;6D
