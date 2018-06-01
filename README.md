@@ -25,6 +25,7 @@ To reload Xresources just use :
 
 ## Quick Install
 
-* `git clone` in ~/.config
+* `git clone ~/.config/Xresources.d`
+* `cd ~/.config/Xresources.d`
 * `chmod +x install.sh`
 * `./install.sh`
