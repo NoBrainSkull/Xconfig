@@ -1,4 +1,4 @@
-#include ".config/Xresources.d/apps/*"
+#include ".config/Xresources.d/apps/rxvt"
 
 Xft.dpi: 96
 Xft.antialias: true

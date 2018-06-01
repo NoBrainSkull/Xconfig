@@ -5,11 +5,11 @@ URxvt*foreground:                   #f2f2f2
 URxvt*background:                   #101010
 URxvt*scrollColor:                  #c2dd5a
 URxvt*cursorColor:                  #c2dd5a
-URxvt*scrollBar:                    true
+URxvt*scrollBar:                    false
 URxvt*scrollstyle:                  rxvt
 URxvt*scrollBar_right:              true
 URxvt*scrollBar_floating:           true
-URxvt*mouseWheelScrollPage:         true
+URxvt*mouseWheelScrollPage:         false
 URxvt*cursorBlink:                  true
 URxvt*letterSpace:                  -1
 URxvt*jumpScroll:                   false
