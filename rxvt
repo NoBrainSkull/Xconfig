@@ -1,4 +1,4 @@
-URxvt*font:                         xft:Inconsolata-Regular
+URxvt*font:                         xft:Hack Nerd Font Mono:style=Regular
 URxvt*depth:                        32
 URxvt*saveLines:                    10000
 URxvt*foreground:                   #f2f2f2
@@ -15,5 +15,4 @@ URxvt*letterSpace:                  -1
 URxvt*jumpScroll:                   false
 URxvt*skipScroll:                   false
 URxvt*internalBorder:               12
-
 
