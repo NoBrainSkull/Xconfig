@@ -15,4 +15,5 @@ URxvt*letterSpace:                  -1
 URxvt*jumpScroll:                   false
 URxvt*skipScroll:                   false
 URxvt*internalBorder:               12
-
+URxvt.perl-ext-common: default,matcher,newterm
+URxvt.keysym.C-S-N: perl:newterm
